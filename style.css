@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.words {
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 16pt;
+  margin: 4% 0;
+  position: relative;
+}
+.right {
+  text-align: right;
+}
+.pics {
+  width: 70%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.item {
+  width: 155px;
+  display: inline-block;
+  margin: 4% 0 0 0;
+  position: relative;
+}
+.stuff {
+  width: 85%;
+  position: relative;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 0);
+}
+.bottom {
+  width: 65%;
+  position: relative;
+  border-top: solid black 1px;
+  font-size: 14px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  padding: 0 2%;
+  text-align: center;
+}
+.bottom-blue {
+  display: inline-block;
+  margin: 0 6px;
+  color: blue;
+}
